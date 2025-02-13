@@ -8,7 +8,7 @@ This project provisions AWS EC2 and RDS instances using Terraform. The infrastru
 ![Architecture Diagram](./assets/architecture.png)
 
 ## Prerequisites
-- Terraform installed on your local machine
+- Terraform installed on your local machine(OR not, as we can use github runner for the same, though Github Actions workflows)
 - AWS CLI configured with appropriate credentials
 - An AWS account
 - GitHub account with repository access
@@ -17,8 +17,8 @@ This project provisions AWS EC2 and RDS instances using Terraform. The infrastru
 
 1. **Clone the repository**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/chetanchandane/terraform-aws-rds.git
+    cd terraform-aws-rds
     ```
 
 2. **Initialize Terraform**
